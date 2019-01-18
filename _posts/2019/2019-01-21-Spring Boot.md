@@ -63,11 +63,11 @@
 
 整合maven进来；
 
-![idea设置](csiqang.github.io\styles\images\springboot\搜狗截图20180129151045.png)
+![idea设置](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180129151045.png)
 
 
 
-![images/](csiqang.github.io\styles\images\springboot\搜狗截图20180129151112.png)
+![images/](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180129151112.png)
 
 ## 4、Spring Boot HelloWorld
 
@@ -266,7 +266,7 @@ public @interface EnableAutoConfiguration {
 
 ​		将所有需要导入的组件以全类名的方式返回；这些组件就会被添加到容器中；
 
-​		会给容器中导入非常多的自动配置类（xxxAutoConfiguration）；就是给容器中导入这个场景需要的所有组件，并配置好这些组件；		![自动配置类](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180129224104.png)
+​		会给容器中导入非常多的自动配置类（xxxAutoConfiguration）；就是给容器中导入这个场景需要的所有组件，并配置好这些组件；		![自动配置类](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180129224104.png)
 
 有了自动配置类，免去了我们手动编写配置注入功能组件等的工作；
 
@@ -492,7 +492,7 @@ public class Person {
 
 调整
 
-![idea配置乱码](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180130161620.png)
+![idea配置乱码](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180130161620.png)
 
 #### 2、@Value获取值和@ConfigurationProperties获取值比较
 
@@ -1129,7 +1129,7 @@ public class HelloWorld {
 
 图示；
 
-![images/concrete-bindings.png](F:\githubPro\csiqang.github.io\styles\images\springboot\concrete-bindings.png)
+![images/concrete-bindings.png](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\concrete-bindings.png)
 
 每一个日志的实现框架都有自己的配置文件。使用slf4j以后，**配置文件还是做成日志实现框架自己本身的配置文件；**
 
@@ -1139,7 +1139,7 @@ a（slf4j+logback）: Spring（commons-logging）、Hibernate（jboss-logging）
 
 统一日志记录，即使是别的框架和我一起统一使用slf4j进行输出？
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\legacy.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\legacy.png)
 
 **如何让系统中所有的日志都统一到slf4j；**
 
@@ -1173,7 +1173,7 @@ SpringBoot使用它来做日志功能；
 
 底层依赖关系
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180131220946.png)
+![](https:\\csqiang123.github.io\csiqang.github.io\styles\images\springboot\搜狗截图20180131220946.png)
 
 总结：
 
@@ -1192,7 +1192,7 @@ public abstract class LogFactory {
     static LogFactory logFactory = new SLF4JLogFactory();
 ```
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180131221411.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180131221411.png)
 
 
 
@@ -1500,7 +1500,7 @@ public class ResourceProperties implements ResourceLoaderAware {
 
 http://www.webjars.org/
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180203181751.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180203181751.png)
 
 localhost:8080/webjars/jquery/3.3.1/jquery.js
 
@@ -1539,7 +1539,7 @@ localhost:8080/abc ===  去静态资源文件夹里面找abc
 
 JSP、Velocity、Freemarker、Thymeleaf
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\template-engine.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\template-engine.png)
 
 
 
@@ -1617,7 +1617,7 @@ public class ThymeleafProperties {
 
 ​	th：任意html属性；来替换原生属性的值
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\2018-02-04_123955.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\2018-02-04_123955.png)
 
 
 
@@ -1941,7 +1941,7 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
 
 1）、编写国际化配置文件，抽取页面需要显示的国际化消息
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180211130721.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180211130721.png)
 
 
 
@@ -1982,7 +1982,7 @@ public class MessageSourceAutoConfiguration {
 
 3）、去页面获取国际化的值；
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180211134506.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180211134506.png)
 
 
 
@@ -2425,17 +2425,17 @@ insert的公共片段在div标签中
 
 ​		1）、浏览器，返回一个默认的错误页面
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180226173408.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180226173408.png)
 
   浏览器发送请求的请求头：
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180226180347.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180226180347.png)
 
 ​		2）、如果是其他客户端，默认响应一个json数据
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180226173527.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180226173527.png)
 
-​		![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180226180504.png)
+​		![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180226180504.png)
 
 原理：
 
@@ -2650,7 +2650,7 @@ public class MyErrorAttributes extends DefaultErrorAttributes {
 
 最终的效果：响应是自适应的，可以通过定制ErrorAttributes改变需要返回的内容，
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180228135513.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180228135513.png)
 
 
 
@@ -2658,7 +2658,7 @@ public class MyErrorAttributes extends DefaultErrorAttributes {
 
 SpringBoot默认使用Tomcat作为嵌入式的Servlet容器；
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180301142915.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180301142915.png)
 
 
 
@@ -2767,7 +2767,7 @@ public ServletRegistrationBean dispatcherServletRegistration(
 
 ### 3）、替换为其他嵌入式Servlet容器
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180302114401.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180302114401.png)
 
 默认支持：
 
@@ -2897,11 +2897,11 @@ public interface EmbeddedServletContainerFactory {
 }
 ```
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180302144835.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180302144835.png)
 
 2）、EmbeddedServletContainer：（嵌入式的Servlet容器）
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180302144910.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180302144910.png)
 
 
 
@@ -3174,7 +3174,7 @@ Spring的web模块里面有这个文件：**org.springframework.web.SpringServle
 
 4）、每一个WebApplicationInitializer都调用自己的onStartup；
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180302221835.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180302221835.png)
 
 5）、相当于我们的SpringBootServletInitializer的类会被创建对象，并执行onStartup方法
 
@@ -3275,11 +3275,11 @@ Docker支持将软件编译成一个镜像；然后在镜像中各种软件做�
 
 运行中的这个镜像称为容器，容器启动是非常快速的。
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180303145450.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180303145450.png)
 
 
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180303145531.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180303145531.png)
 
 ## 2、核心概念
 
@@ -3293,7 +3293,7 @@ docker镜像(Images)：软件打包好的镜像；放在docker仓库中；
 
 docker容器(Container)：镜像启动后的实例称为一个容器；容器是独立运行的一个或一组应用
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180303165113.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180303165113.png)
 
 使用Docker的步骤：
 
@@ -3620,7 +3620,7 @@ public class DruidConfig {
 		</dependency>
 ```
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180305194443.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180305194443.png)
 
 步骤：
 
@@ -3705,7 +3705,7 @@ http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/
 
 ### 1）、SpringData简介
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180306105412.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180306105412.png)
 
 ### 2）、整合SpringData JPA
 
@@ -3795,9 +3795,9 @@ private void initialize(Object[] sources) {
 }
 ```
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180306145727.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180306145727.png)
 
-![](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180306145855.png)
+![](https://csqiang123.github.io/csiqang.github.io\styles\images\springboot\搜狗截图20180306145855.png)
 
 ## 2、运行run方法
 
