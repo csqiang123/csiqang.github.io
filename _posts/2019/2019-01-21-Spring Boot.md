@@ -63,11 +63,11 @@
 
 整合maven进来；
 
-![idea设置](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180129151045.png)
+![idea设置](csiqang.github.io\styles\images\springboot\搜狗截图20180129151045.png)
 
 
 
-![images/](F:\githubPro\csiqang.github.io\styles\images\springboot\搜狗截图20180129151112.png)
+![images/](csiqang.github.io\styles\images\springboot\搜狗截图20180129151112.png)
 
 ## 4、Spring Boot HelloWorld
 
